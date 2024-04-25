@@ -1,0 +1,116 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ffede7; /* Replace #f0f0f0 with the desired background color */
+    font-family: "Tahoma", sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10;
+    top: 50px;
+    color:#4a3434
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 35px;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+
+
+.img{
+    max-width: 500px;
+    margin-left: 130px
+
+}
+.header {
+    background-image: url('img/sky.jpeg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 200px 0;
+}
+
+
+.header-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.header h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.header h2 {
+    font-size: 24px;
+    font-weight: 30;
+}
+
+
+.intro {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.italy {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.lemon {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.paint {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.tableau {
+   margin-left: 160px;
+}
+
+.video {
+    margin-left: 110px;
+ }
+
+ 
+/* Style the "Back to Top" link */
+a.back-to-top {
+    position: fixed; /* Fix the position of the link */
+    bottom: 20px; /* Adjust the distance from the bottom of the viewport */
+    right: 20px; /* Adjust the distance from the right of the viewport */
+    background-color: white; /* White background color */
+    color: black; /* Black text color */
+    padding: 10px 20px; /* Add padding to the link */
+    font-size: 18px; /* Larger font size */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Add rounded corners */
+}
+
+
+p{
+ color:#4a3434;
+}
+
+
+
+
+
